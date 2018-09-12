@@ -7,7 +7,7 @@ def ask_user(dictionary_talk):
         question = input(' ')
         q = dictionary_talk.get(question)
         print(q)
-         
+       
         
 
 ask_user(dictionary_talk)
